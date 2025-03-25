@@ -26,7 +26,7 @@ def main():
         'user': os.getenv('DB_USER'),
         'password': os.getenv('DB_PASS'),
         'host': os.getenv('DB_HOST'),
-        'port': '5433'
+        'port': ''
     }
 
     # Connect to the PostgreSQL database
